@@ -1,0 +1,53 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos generados por Node.js
+npm-debug.log
+yarn-error.log
+
+# Dependencias de desarrollo
+devDependencies/
+
+# Directorio de caché de npm (opcional, pero a menudo se ignora)
+.npm
+
+# Archivo de configuración de npm (si usas npm)
+.npmrc
+
+# Dependencias de Yarn (si usas Yarn)
+.yarn
+.yarnrc
+.yarn-integrity
+
+# Archivo de bloqueo de versión de npm (si usas npm 5+)
+package-lock.json
+
+# Archivo de bloqueo de versión de Yarn (si usas Yarn)
+yarn.lock
+
+# Entorno de desarrollo (variables de entorno, secretos, etc.)
+.env
+.env.local
+.env.*.local
+
+# Logs y archivos temporales generados por tu IDE o editor de código
+.vscode/
+.idea/
+
+# Archivos de construcción generados
+/build/
+/dist/
+
+# Archivos de registro y archivos generados por aplicaciones
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+*.csv
+
+# Archivos de respaldo (generalmente creados por editores de texto)
+*~
+
+# Carpeta de almacenamiento local de Firebase (si usas Firebase)
+.firebase/
