@@ -22,7 +22,9 @@ export const postUser = async (req, res) => {
     });
     
     const userCreated = await newUser.save()
-    const token = createAccessToken({id: userCreated._id})
+    const token = await createAccessToken({id: userCreated._id})
+
+    res.cookie('token', token)
 
     res.status(200).json({dato: newUser.username + " resgistrado exitosamente"})
 
